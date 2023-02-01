@@ -1,5 +1,84 @@
+*{
+	margin: 3px ;
+	box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+
+body{
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.todo{
+	width: 90%;
+	max-width: 1200px;
+	min-height: 120px;
+	background-color: lightblue;
+	margin: 5px;
+}
+
+.cabecera, .navegador {
+ margin: 5px;
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+}
+
+.foto{
+
+    display: flex;
+    justify-content: right;
+    
+}
+
+
 img{
     border: 5px solid gray;
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+h1{
+    font-size: 25px;
+}
+
+h2{
+    text-decoration: underline gray;
+    font-size: 17px;
+}
+
+.i_contacto, .perfil, .aptitudes, .idiomas, .experiencia, .formacion, .adicional {
+	position: initial;
+	background-color: gainsboro;
+	padding: 10px;
+
+}
+.botones{
+	margin-bottom: 1px;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    right: 10px;
+}
+
+.fore{
+        padding: 25px 0px 0px 0px;
+}
+#navegador { background-color: gray; padding: 5px; }
+#navegador li {  
+           background-color: lightgray; width: 30%;float: left;
+           list-style-type: none; position: relative; }
+#subseccion1 
+             { position: absolute;  
+             background-color: gainsboro; font:normal 15 arial;  
+              ; display: none; }				 
+#navegador li:hover { background-color: lightgray; }
+#navegador li a:link, #navegador li a:visited { 
+           color: black; text-decoration: none; }
+#navegador li a:hover, #navegador li a:active { 
+           color:#ffd7a9 ; text-decoration: none; }
+.borrar { clear: both; }	
+

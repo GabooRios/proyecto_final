@@ -1,20 +1,84 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" 
           content="width=device-width, initial-scale=1.0">
-    <link id="estilo" rel="stylesheet" href="css/estilo.css">
-    <title>Currículum</title>
+    <title>currículum</title> 
+    <link rel="stylesheet" href="css/estilo.css">
+
 </head>
 <body>
-    <div class="todo">
-        <div class="nombre">
-            <h1>Samuel Vidal Muñoz</h1>
+
+
+<div class="todo">
+    <div id="navegador">    
+        <ul>
+            <li id="menu" onmouseover="ver(1)" onmouseout="ocultar(1)">
+      <p><a href="#">pagina 1</a></p>
+      <div id="subseccion1">
+        <p><a href="curriculum.html">pagina 1</a></p>
+        <p><a href="curriculum2.html">pagina 2</a></p>
+        <p><a href="curriculum3.html">pagina 3</a></p>
+       
+      </div>
+    </li>
+  </ul>
+  <div class="borrar"></div>  
+</div>
+        <div class="cabecera">
+            <div class="nombre" >
+                <h1>Samuel Vidal Muñoz</h1>
+                <div class="titulo">
+                <p>Web Developer</p>
+                </div>
+            </div>
+            <div class="foto">
+                <img src="media/perfil.jpg"
+                alt="Foto de perfil."
+                >
+            </div>
+            
         </div>
-        <divclass="foto"><img src="media/perfil.jpg" alt="foto de perfil">
-        </div>
+        <div class="i_contacto">
+                <br><h2>CONTACTO</h2>
+                <p><b>Correo electrónico:<br></b>samuel.vidal.muños@gmail.com</p>
+                <p><b>Número de teléfono:<br></b>1123456789</p><br>
+            </div>
+            <div class="perfil"><h2>PERFIL PROFESIONAL</h2><p>Desarrollador front end con 10 años
+de experiencia dirigiendo proyectos
+de diseño de páginas web. Centrado
+en la creación de códigos claros y con
+capacidad para cumplir los objetivos y
+las necesidades del cliente.</p>
+            </div><div class="aptitudes">
+                <h2>APTITUDES</h2>
+                <ul>
+                    <li>Dominio de lenguajes de
+programación
+</li>
+                    <li>Resolución de problemas</li>
+                    <li>Interés por la innovación
+tecnológica
+</li>
+                    <li>Persona analítica
+</li>
+                    <li>Capas de aprender rápidamente</li>
+                    
+                </ul>
+            </div>
+            <div class="idiomas">
+                <h2>IDIOMAS</h2>
+                <ul>
+                    <li>Español</li>
+                    <li>Ingles - intermedio</li>
+                </ul>
+                
+            </div>
         
-    </div>
+
+            <div>
+
+<script src = 'js/funcion.js'></script>
 </body>
 </html>
